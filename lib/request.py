@@ -5,7 +5,7 @@ class RequestClass: # class that handles requests
 		self.baseUrl = baseUrl
 		self.trustName = trustName
 
-		self.uploadUrl = "http://kapper.gideon.nu/api/review"
+		self.uploadUrl = "http:/www.amazon.com/api/review"
 
 		self.url: str = self.baseUrl + self.trustName + "?languages=all"
 	
